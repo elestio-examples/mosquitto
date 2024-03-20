@@ -8,3 +8,5 @@ docker-compose exec -T mosquitto mosquitto_passwd -U /mosquitto/data/mosquitto.p
 
 docker-compose down;
 docker-compose up -d;
+
+
