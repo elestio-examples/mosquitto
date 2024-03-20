@@ -3,7 +3,7 @@ set -o allexport; source .env; set +o allexport;
 
 
 
-mkdir ./mosquitto
+mkdir -p ./mosquitto/{config,data,log}
 chown -R 1000:1000 ./mosquitto
 
 cat << EOT >> ./mosquitto/data/mosquitto.password_file
