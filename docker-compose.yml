@@ -4,7 +4,6 @@ services:
   mosquitto:
     image: eclipse-mosquitto:${SOFTWARE_VERSION_TAG}
     hostname: mosquitto
-    container_name: mosquitto
     restart: always
     ports:
       - "1883:1883"
